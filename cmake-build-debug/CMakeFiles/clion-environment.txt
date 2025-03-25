@@ -1,0 +1,5 @@
+ToolSet: 5.0 (local)@C:\MinGW
+Ninja: 1.12.1@C:\Users\Martin\AppData\Local\Programs\CLion\bin\ninja\win\x64\ninja.exe
+Options: 
+
+Options:
