@@ -56,10 +56,10 @@ RM = C:\Users\Martin\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Martin\Documents\github-folder\dev-game-engine
+CMAKE_SOURCE_DIR = C:\Users\Martin\Documents\github-folder\cpp-game-engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\CMakeFiles C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\CMakeFiles C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,48 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dev-game-engine
+# Target rules for targets named cpp-game-engine
 
 # Build rule for target.
-dev-game-engine: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dev-game-engine
-.PHONY : dev-game-engine
+cpp-game-engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cpp-game-engine
+.PHONY : cpp-game-engine
 
 # fast build rule for target.
-dev-game-engine/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/build
-.PHONY : dev-game-engine/fast
-
-glmatrix.obj: glmatrix.cpp.obj
-.PHONY : glmatrix.obj
-
-# target to build an object file
-glmatrix.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj
-.PHONY : glmatrix.cpp.obj
-
-glmatrix.i: glmatrix.cpp.i
-.PHONY : glmatrix.i
-
-# target to preprocess a source file
-glmatrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/glmatrix.cpp.i
-.PHONY : glmatrix.cpp.i
-
-glmatrix.s: glmatrix.cpp.s
-.PHONY : glmatrix.s
-
-# target to generate assembly for a file
-glmatrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/glmatrix.cpp.s
-.PHONY : glmatrix.cpp.s
+cpp-game-engine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp-game-engine.dir\build.make CMakeFiles/cpp-game-engine.dir/build
+.PHONY : cpp-game-engine/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp-game-engine.dir\build.make CMakeFiles/cpp-game-engine.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -165,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp-game-engine.dir\build.make CMakeFiles/cpp-game-engine.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp-game-engine.dir\build.make CMakeFiles/cpp-game-engine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,10 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... dev-game-engine
-	@echo ... glmatrix.obj
-	@echo ... glmatrix.i
-	@echo ... glmatrix.s
+	@echo ... cpp-game-engine
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -20,6 +20,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake"
   "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake"
   "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+  "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenGL.cmake"
+  "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake"
   "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -29,7 +32,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake"
   "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake"
   "C:/Users/Martin/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
-  "C:/Users/Martin/Documents/github-folder/dev-game-engine/CMakeLists.txt"
+  "C:/Users/Martin/Documents/github-folder/cpp-game-engine/CMakeLists.txt"
   "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
@@ -49,5 +52,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/dev-game-engine.dir/DependInfo.cmake"
+  "CMakeFiles/cpp-game-engine.dir/DependInfo.cmake"
   )

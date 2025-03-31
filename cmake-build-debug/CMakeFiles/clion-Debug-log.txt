@@ -1,4 +1,5 @@
-C:\Users\Martin\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\Martin\Documents\github-folder\dev-game-engine -B C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug
+C:\Users\Martin\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\Martin\Documents\github-folder\cpp-game-engine -B C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug
+-- Found OpenGL: opengl32
 -- Configuring done (0.2s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Users/Martin/Documents/github-folder/dev-game-engine/cmake-build-debug
+-- Build files have been written to: C:/Users/Martin/Documents/github-folder/cpp-game-engine/cmake-build-debug

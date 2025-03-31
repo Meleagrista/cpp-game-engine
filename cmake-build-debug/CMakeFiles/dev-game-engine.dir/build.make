@@ -52,10 +52,10 @@ RM = C:\Users\Martin\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Martin\Documents\github-folder\dev-game-engine
+CMAKE_SOURCE_DIR = C:\Users\Martin\Documents\github-folder\cpp-game-engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dev-game-engine.dir/depend.make
@@ -69,32 +69,32 @@ include CMakeFiles/dev-game-engine.dir/progress.make
 include CMakeFiles/dev-game-engine.dir/flags.make
 
 CMakeFiles/dev-game-engine.dir/main.cpp.obj: CMakeFiles/dev-game-engine.dir/flags.make
-CMakeFiles/dev-game-engine.dir/main.cpp.obj: C:/Users/Martin/Documents/github-folder/dev-game-engine/main.cpp
+CMakeFiles/dev-game-engine.dir/main.cpp.obj: C:/Users/Martin/Documents/github-folder/cpp-game-engine/main.cpp
 CMakeFiles/dev-game-engine.dir/main.cpp.obj: CMakeFiles/dev-game-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dev-game-engine.dir/main.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dev-game-engine.dir/main.cpp.obj -MF CMakeFiles\dev-game-engine.dir\main.cpp.obj.d -o CMakeFiles\dev-game-engine.dir\main.cpp.obj -c C:\Users\Martin\Documents\github-folder\dev-game-engine\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dev-game-engine.dir/main.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dev-game-engine.dir/main.cpp.obj -MF CMakeFiles\dev-game-engine.dir\main.cpp.obj.d -o CMakeFiles\dev-game-engine.dir\main.cpp.obj -c C:\Users\Martin\Documents\github-folder\cpp-game-engine\main.cpp
 
 CMakeFiles/dev-game-engine.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dev-game-engine.dir/main.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martin\Documents\github-folder\dev-game-engine\main.cpp > CMakeFiles\dev-game-engine.dir\main.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martin\Documents\github-folder\cpp-game-engine\main.cpp > CMakeFiles\dev-game-engine.dir\main.cpp.i
 
 CMakeFiles/dev-game-engine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dev-game-engine.dir/main.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martin\Documents\github-folder\dev-game-engine\main.cpp -o CMakeFiles\dev-game-engine.dir\main.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martin\Documents\github-folder\cpp-game-engine\main.cpp -o CMakeFiles\dev-game-engine.dir\main.cpp.s
 
 CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj: CMakeFiles/dev-game-engine.dir/flags.make
-CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj: C:/Users/Martin/Documents/github-folder/dev-game-engine/glmatrix.cpp
+CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj: C:/Users/Martin/Documents/github-folder/cpp-game-engine/glmatrix.cpp
 CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj: CMakeFiles/dev-game-engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj -MF CMakeFiles\dev-game-engine.dir\glmatrix.cpp.obj.d -o CMakeFiles\dev-game-engine.dir\glmatrix.cpp.obj -c C:\Users\Martin\Documents\github-folder\dev-game-engine\glmatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj -MF CMakeFiles\dev-game-engine.dir\glmatrix.cpp.obj.d -o CMakeFiles\dev-game-engine.dir\glmatrix.cpp.obj -c C:\Users\Martin\Documents\github-folder\cpp-game-engine\glmatrix.cpp
 
 CMakeFiles/dev-game-engine.dir/glmatrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dev-game-engine.dir/glmatrix.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martin\Documents\github-folder\dev-game-engine\glmatrix.cpp > CMakeFiles\dev-game-engine.dir\glmatrix.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Martin\Documents\github-folder\cpp-game-engine\glmatrix.cpp > CMakeFiles\dev-game-engine.dir\glmatrix.cpp.i
 
 CMakeFiles/dev-game-engine.dir/glmatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dev-game-engine.dir/glmatrix.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martin\Documents\github-folder\dev-game-engine\glmatrix.cpp -o CMakeFiles\dev-game-engine.dir\glmatrix.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Martin\Documents\github-folder\cpp-game-engine\glmatrix.cpp -o CMakeFiles\dev-game-engine.dir\glmatrix.cpp.s
 
 # Object files for target dev-game-engine
 dev__game__engine_OBJECTS = \
@@ -110,7 +110,7 @@ dev-game-engine.exe: CMakeFiles/dev-game-engine.dir/build.make
 dev-game-engine.exe: CMakeFiles/dev-game-engine.dir/linkLibs.rsp
 dev-game-engine.exe: CMakeFiles/dev-game-engine.dir/objects1.rsp
 dev-game-engine.exe: CMakeFiles/dev-game-engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable dev-game-engine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable dev-game-engine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\dev-game-engine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/dev-game-engine.dir/clean:
 .PHONY : CMakeFiles/dev-game-engine.dir/clean
 
 CMakeFiles/dev-game-engine.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Martin\Documents\github-folder\dev-game-engine C:\Users\Martin\Documents\github-folder\dev-game-engine C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\CMakeFiles\dev-game-engine.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Martin\Documents\github-folder\cpp-game-engine C:\Users\Martin\Documents\github-folder\cpp-game-engine C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\CMakeFiles\dev-game-engine.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dev-game-engine.dir/depend
 

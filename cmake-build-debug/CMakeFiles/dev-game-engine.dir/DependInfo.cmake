@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Martin/Documents/github-folder/dev-game-engine/glmatrix.cpp" "CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj" "gcc" "CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj.d"
-  "C:/Users/Martin/Documents/github-folder/dev-game-engine/main.cpp" "CMakeFiles/dev-game-engine.dir/main.cpp.obj" "gcc" "CMakeFiles/dev-game-engine.dir/main.cpp.obj.d"
+  "C:/Users/Martin/Documents/github-folder/cpp-game-engine/glmatrix.cpp" "CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj" "gcc" "CMakeFiles/dev-game-engine.dir/glmatrix.cpp.obj.d"
+  "C:/Users/Martin/Documents/github-folder/cpp-game-engine/main.cpp" "CMakeFiles/dev-game-engine.dir/main.cpp.obj" "gcc" "CMakeFiles/dev-game-engine.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

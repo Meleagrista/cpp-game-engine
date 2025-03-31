@@ -53,16 +53,16 @@ RM = C:\Users\Martin\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Martin\Documents\github-folder\dev-game-engine
+CMAKE_SOURCE_DIR = C:\Users\Martin\Documents\github-folder\cpp-game-engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/dev-game-engine.dir/all
+all: CMakeFiles/cpp-game-engine.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/dev-game-engine.dir/clean
+clean: CMakeFiles/cpp-game-engine.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/dev-game-engine.dir
+# Target rules for target CMakeFiles/cpp-game-engine.dir
 
 # All Build rule for target.
-CMakeFiles/dev-game-engine.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target dev-game-engine"
-.PHONY : CMakeFiles/dev-game-engine.dir/all
+CMakeFiles/cpp-game-engine.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp-game-engine.dir\build.make CMakeFiles/cpp-game-engine.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp-game-engine.dir\build.make CMakeFiles/cpp-game-engine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target cpp-game-engine"
+.PHONY : CMakeFiles/cpp-game-engine.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/dev-game-engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/dev-game-engine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\github-folder\dev-game-engine\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/dev-game-engine.dir/rule
+CMakeFiles/cpp-game-engine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cpp-game-engine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Martin\Documents\github-folder\cpp-game-engine\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/cpp-game-engine.dir/rule
 
 # Convenience name for target.
-dev-game-engine: CMakeFiles/dev-game-engine.dir/rule
-.PHONY : dev-game-engine
+cpp-game-engine: CMakeFiles/cpp-game-engine.dir/rule
+.PHONY : cpp-game-engine
 
 # clean rule for target.
-CMakeFiles/dev-game-engine.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\dev-game-engine.dir\build.make CMakeFiles/dev-game-engine.dir/clean
-.PHONY : CMakeFiles/dev-game-engine.dir/clean
+CMakeFiles/cpp-game-engine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp-game-engine.dir\build.make CMakeFiles/cpp-game-engine.dir/clean
+.PHONY : CMakeFiles/cpp-game-engine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

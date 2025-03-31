@@ -1,3 +1,3 @@
-C:/Users/Martin/Documents/github-folder/dev-game-engine/cmake-build-debug/CMakeFiles/dev-game-engine.dir
-C:/Users/Martin/Documents/github-folder/dev-game-engine/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Martin/Documents/github-folder/dev-game-engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Martin/Documents/github-folder/cpp-game-engine/cmake-build-debug/CMakeFiles/cpp-game-engine.dir
+C:/Users/Martin/Documents/github-folder/cpp-game-engine/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Martin/Documents/github-folder/cpp-game-engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir

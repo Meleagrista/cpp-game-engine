@@ -19,3 +19,8 @@ The installation process depends on whether you're using **Visual Studio** or **
 
 ### Additional Requirements
 Ensure that **CMake** is installed on your system. You can download it from the official website: [https://cmake.org/download/](https://cmake.org/download/)  
+
+# Wall of Shame
+## 31/03/2025
+- Compilation error solved by changing the `CMakeLists.txt` to a more suitable format.
+> Your CMakeLists.txt has a few issues with linking. The -lOpenGL32 -lfreeGLUT syntax is more suited for manual g++ compilation rather than CMake. You should use target_link_libraries properly and ensure that your dependencies are found correctly.
