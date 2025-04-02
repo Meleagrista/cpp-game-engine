@@ -1,8 +1,9 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <GL/glut.h>
+#define PI 3.1415926535
 
-float px, py; // Player position
+float px, py, pdx, pdy, pa;
 
 void drawPlayer()
 {
@@ -13,27 +14,69 @@ void drawPlayer()
     glEnd();
 }
 
+int mapX=8, mapY=8, mapS=64;
+int map[]=
+{
+    1,1,1,1,1,1,1,1,
+    1,0,1,0,0,0,0,1,
+    1,0,1,0,0,1,0,1,
+    1,0,0,0,0,0,0,1,
+    1,0,0,1,0,0,0,1,
+    1,0,0,1,0,0,0,1,
+    1,0,0,0,0,1,0,1,
+    1,1,1,1,1,1,1,1,
+};
+
+void drawMap2D() {
+    for (int y = 0; y<mapY;y++)
+    {
+        for (int x = 0; x<mapX;x++)
+        {
+            if (map[y*mapX+x]==1) {glColor3f(1,1,1);} else {glColor3f(0,0,0);}
+            const int xo = x * mapS;
+            const int yo = y * mapS;
+            glBegin(GL_QUADS);
+            glVertex2i(xo      +1, yo        +1);
+            glVertex2i(xo      +1, yo+mapS   -1);
+            glVertex2i(xo+mapS -1, yo+mapS   -1);
+            glVertex2i(xo+mapS -1, yo        +1);
+            glEnd();
+        }
+    }
+}
 
 void display()
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    drawMap2D();
+    drawPlayer();
     glutSwapBuffers();
+}
+
+void buttons(unsigned char key, int x, int y)
+{
+    if (key=='a') { px-=5; }
+    if (key=='d') { px+=5; }
+    if (key=='w') { py-=5; }
+    if (key=='s') { py+=5; }
+    glutPostRedisplay();
 }
 
 void init()
 {
     glClearColor(0.3, 0.3, 0.3, 0);
     gluOrtho2D(0.0, 1024.0, 512.0, 0.0);
-
+    px=300; py=300;
 }
 
 int main(int argc, char* argv[])
 {
     glutInit(&argc, argv);
-    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
+    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(1024, 512);
     glutCreateWindow("Wolfenstein 3D Engine");
     init();
     glutDisplayFunc(display);
+    glutKeyboardFunc(buttons);
     glutMainLoop();
 }
