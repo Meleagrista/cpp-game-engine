@@ -21,7 +21,7 @@
     <a href="https://github.com/Meleagrista/cpp-game-engine/issues/">
       <img src="https://img.shields.io/github/issues/Meleagrista/cpp-game-engine" alt="open issues" />
     </a>
-    <a href="https://github.com/Meleagrista/cpp-game-engine/blob/master/LICENSE.txt">
+    <a href="https://github.com/Meleagrista/cpp-game-engine/blob/main/LICENSE.txt">
       <img src="https://img.shields.io/github/license/Meleagrista/cpp-game-engine" alt="license" />
     </a>
   </p>
