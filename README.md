@@ -27,7 +27,7 @@
   </p>
 
   <h4>
-    <a href="https://github.com/Meleagrista/cpp-game-engine/blob/master/WALLOFSHAME.md">Wall of Shame</a>
+    <a href="https://github.com/Meleagrista/cpp-game-engine/blob/wolfenstein-3d/WALLOFSHAME.md">Wall of Shame</a>
   </h4>
 
 </div>
