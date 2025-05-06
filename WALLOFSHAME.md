@@ -1,0 +1,2 @@
+# Wall of Shame
+This log tracks instances where AI was used to solve development issues. It highlights specific challenges that required AI assistance, providing context on what the issue was and how AI helped resolve it. The goal is to document these cases to better understand when and why AI is a valuable tool in the development process.
